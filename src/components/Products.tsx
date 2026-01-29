@@ -34,7 +34,7 @@ const products = [
     },
     {
         id: 4,
-        name: "Solar Battery Storage",
+        name: "Solar Battery",
         category: "Storage",
         price: "Details contact us",
         description: "Heavy-duty tall tubular solar battery for reliable power backup. Long life cycle and high charge acceptance.",

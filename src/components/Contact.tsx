@@ -87,7 +87,7 @@ export default function Contact() {
                                     <h3 className="text-white font-bold text-lg">SIYAS TECHNO HUB Headquarters</h3>
                                     <p className="text-gray-400">
                                         Owner: <span className="text-white font-semibold">Yoosaf Ali</span><br />
-                                        Perumbilav,SH39<br />
+                                        Perumbilavu,SH39<br />
                                         Kerala, India
                                     </p>
                                 </div>
