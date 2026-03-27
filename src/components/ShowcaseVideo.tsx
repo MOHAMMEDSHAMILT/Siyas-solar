@@ -25,23 +25,7 @@ export default function ShowcaseVideo() {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-solar-gold/10 blur-[120px] pointer-events-none" />
 
             <div className="container mx-auto px-4">
-                <div className="max-w-6xl mx-auto space-y-8">
-                    {/* Label/Header */}
-                    <div className="text-center space-y-4">
-                        <motion.div 
-                            initial={{ opacity: 0, y: 10 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-solar-gold/10 border border-solar-gold/20"
-                        >
-                            <div className="w-1.5 h-1.5 rounded-full bg-solar-gold animate-pulse" />
-                            <span className="text-solar-gold text-xs font-bold uppercase tracking-widest">Innovation Gallery</span>
-                        </motion.div>
-                        <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight">
-                            Real-World <span className="text-solar-gold">Installations</span>
-                        </h2>
-                    </div>
-
+                <div className="max-w-6xl mx-auto">
                     {/* Video Container with Premium styling */}
                     <motion.div 
                         initial={{ opacity: 0, scale: 0.95 }}
@@ -74,25 +58,6 @@ export default function ShowcaseVideo() {
                                 >
                                     {isPlaying ? <Pause className="w-8 h-8 fill-current" /> : <Play className="w-8 h-8 fill-current translate-x-1" />}
                                 </button>
-                            </div>
-
-                            {/* Floating "Model" Badge */}
-                            <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10 z-20">
-                                <div className="p-4 rounded-2xl bg-black/40 backdrop-blur-xl border border-white/10 flex items-center gap-4">
-                                    <div className="w-12 h-12 rounded-xl bg-solar-gold flex items-center justify-center">
-                                        <svg className="w-6 h-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <div className="flex items-center gap-2">
-                                            <p className="text-white font-bold text-sm">Solar Model Showcase</p>
-                                            <span className="px-1.5 py-0.5 rounded-md bg-white/10 border border-white/20 text-[10px] font-black text-solar-gold tracking-tighter uppercase">Ultra HD</span>
-                                        </div>
-                                        <p className="text-white/60 text-xs">Premium Installation v1.0</p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 

@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import Products from "@/components/Products";
 import Contact from "@/components/Contact";
+import ShowcaseVideo from "@/components/ShowcaseVideo";
 import VisitCard from "@/components/VisitCard";
 import Footer from "@/components/Footer";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <MissionVision />
       <Features />
       <Products />
+      <ShowcaseVideo />
       <VisitCard />
       <Contact />
       <Footer />
