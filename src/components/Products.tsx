@@ -38,7 +38,7 @@ const products = [
         category: "Storage",
         price: "Details contact us",
         description: "Heavy-duty tall tubular solar battery for reliable power backup. Long life cycle and high charge acceptance.",
-        image: "/utl-battery.png",
+        image: "/products/utl-battery.webp",
         gradient: "from-green-500/20 to-emerald-500/20"
     },
     {
