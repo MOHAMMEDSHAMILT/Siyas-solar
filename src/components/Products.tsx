@@ -11,7 +11,7 @@ const products = [
         category: "Panels",
         price: "Details contact us",
         description: "High-efficiency monocrystalline panels (550W) with 22% efficiency rating. Perfect for residential and commercial rooftops.",
-        image: "/panel.png",
+        image: "/products/solar-panel.jpg",
         gradient: "from-blue-600/20 to-cyan-500/20"
     },
     {
